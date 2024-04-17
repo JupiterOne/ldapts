@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.0.1 - 2024-04-17
+
+- update publish config
+
 ## 8.0.0 - 2024-04-17
 
 - `search` method signature rewritten to allow manual pagination

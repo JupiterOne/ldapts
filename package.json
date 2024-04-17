@@ -6,6 +6,9 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": {
@@ -51,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ldapts/ldapts.git"
+    "url": "git+https://github.com/jupiterone/ldapts.git"
   },
   "engines": {
     "node": ">=18"
@@ -64,9 +67,9 @@
   "author": "jim@biacreations.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ldapts/ldapts/issues"
+    "url": "https://github.com/jupiterone/ldapts/issues"
   },
-  "homepage": "https://github.com/ldapts/ldapts#readme",
+  "homepage": "https://github.com/jupiterone/ldapts#readme",
   "dependencies": {
     "@types/asn1": ">=0.2.4",
     "@types/uuid": ">=9",

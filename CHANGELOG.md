@@ -1,5 +1,9 @@
 # Change Log
 
+## 8.0.0 - 2024-04-17
+
+- `search` method signature rewritten to allow manual pagination
+
 ## 7.0.11 - 2024-04-08
 
 - Fix DN clone method when RDNs array is not empty. Fix #149
